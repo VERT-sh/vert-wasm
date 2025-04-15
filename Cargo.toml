@@ -5,7 +5,7 @@ authors = ["nullptr"]
 repository = "https://github.com/VERT-sh/vert-wasm"
 license = "AGPL-3.0"
 homepage = "https://vert.sh"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2024"
 
 [lib]

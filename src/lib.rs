@@ -15,7 +15,7 @@ impl From<IcnsError> for JsValue {
     }
 }
 
-#[wasm_bindgen]
+#[wasm_bindgen(js_name = "parseIcns")]
 pub fn parse_icns(file: Box<[u8]>) -> Result<JsValue, IcnsError> {
     let reader = BufReader::new(file.as_ref());
     let icon_family = IconFamily::read(reader)?;
